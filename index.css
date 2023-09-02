@@ -17,6 +17,41 @@ body{
     color: #333;
 }
 
+
+body.dark-mode {
+    background-color: rgb(77, 77, 77);
+    color: aquamarine;
+}
+
+.dark-mode .cart-total {
+
+    background-color: #333;
+}
+
+
+/* Estilos para el carrito de compras en modo oscuro */
+.dark-mode .cart-product {
+    background-color: #333; 
+    color: #fff; /
+    
+}
+
+
+
+
+.btnn {
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btnn:hover {
+    transform: scale(1.2);
+}
+
 .icon-cart{
     width: 40px;
     height: 40px;
@@ -192,4 +227,36 @@ header{
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
+}
+
+
+
+.container-de-imagenes img {
+
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.container-de-imagenes h2 {
+
+    text-align:  center;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.container-de-imagenes span {
+
+    color: rgb(250, 60, 60);
+    font-size: 35px;
+}
+
+h1 {
+
+
+    color: rgb(250, 60, 60);
+    font-size: 35px;
+
 }
